@@ -1,0 +1,28 @@
+body {
+  --background: #e0e0ce;
+  --darkBlue: #003d5b;
+  --lightBlue: #30638e;
+  --green: #00798C;
+  --red: #d1495b;
+  background-color: var(--background);
+  box-sizing: border-box;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  height: 100%;
+}
+
+html,
+#root,
+.App {
+  height: 100%;
+}
+
+
+h1,
+h2 {
+  color: var(--darkBlue);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}

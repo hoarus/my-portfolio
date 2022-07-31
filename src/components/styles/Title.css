@@ -1,0 +1,44 @@
+/* Header */
+header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.name {
+  color: var(--red);
+  margin-top: 0;
+}
+
+.role-title {
+  opacity: 100%;
+  color: var(--darkBlue);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Animation */
+.role-title {
+  animation: animated-text 2.5s steps(30, end) 1000ms 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 472px;
+  }
+}
+
+.headshot {
+  max-width: 25%;
+  border: solid 2px var(--darkBlue);
+  border-radius: 90%;
+}
